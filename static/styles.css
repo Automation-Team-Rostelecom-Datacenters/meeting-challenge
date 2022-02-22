@@ -1,0 +1,118 @@
+
+
+.flex-container {
+
+   display: inline-flex;
+   flex-direction: column;
+  background-color: white;
+  border-color: grey;
+  padding: 5px;
+  min-height: 300px;
+  max-width: 400px;
+  flex-wrap: wrap;
+    
+}
+.header-bar {
+    background-color: rgb(204, 204, 204);
+    padding-top: 3px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.min-label {
+    background-color: rgb(211, 208, 208);
+    padding-left: 3px;
+}
+.find-bar {
+    background-color: lightcyan;
+    padding: 5px;
+}
+.input-container {
+    background-color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.input-bar{
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+}
+.label-container {
+    background-color: maroon;
+    width: 30%;
+}
+
+input {
+    box-sizing: border-box;
+  }
+  input[type="text"] {
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    float: right;
+    width: 10%;
+  }
+  label {
+      padding-left: 5px;
+      font-weight: 900;
+      font-family: sans-serif;
+  }
+  .find-button {
+      background-color: rgb(0, 157, 255); 
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 15px;
+      color: white;
+      border-radius: 7px;
+        width: 25%;
+        float: right;
+      border-color: rgb(11, 167, 240);  
+      font-weight: bolder;
+  }
+  .error-block {
+      background-color: lightpink;
+      opacity: 60%;
+      height: 50px;
+      margin-top: 20px;
+      border-radius: 7px;
+  }     
+  .error-block p {
+      margin-left: 15px;
+      margin-top: 10px;
+      color: red;
+  }
+  .hidden {
+      visibility: hidden;
+  }
+
+  .results-container {
+      margin-top: 10px;
+      min-height: 100px;
+        padding: 5px;
+      background-color: rgb(235, 235, 235);
+      opacity: 80%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .result-block {
+      margin: 5px;
+      padding: 3px;
+      height: 30px;
+
+      background-color: green;
+      color: white;
+      text-align: center;
+
+
+      border-radius: 5px;
+      
+  }
+  .result-block p {
+
+    font-weight: bolder;
+  }
